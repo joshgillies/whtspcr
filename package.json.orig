@@ -1,0 +1,23 @@
+{
+  "name": "whtspcr",
+  "version": "0.0.0",
+  "description": "A simple node module to parse leading whitespace from a string or file.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "whitespace",
+    "indent",
+    "parse",
+    "white",
+    "space"
+  ],
+  "author": "joshgillies",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
