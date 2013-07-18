@@ -1,16 +1,10 @@
 var test = require('tap').test
-  , whtspcr = require('whtspcr');
+  , whtspcr = require('../');
 
 test('whitespace detection', function(t) {
   t.equal(whtspcr(' ')[0], 1, "space, we got one");
   t.equal(whtspcr('\u0009')[0], 1, "tabspace, we got that too");
   t.equal(whtspcr(' \u0009 \u0009')[0], 4, "combination of the above");
-  t.end();
-});
-
-test('line detection', function(t) {
-  t.equal(whtspcr('').length, 1, 'one line here');
-  t.equal(whtspcr('\n').length, 2, 'two lines here');
   t.end();
 });
 
