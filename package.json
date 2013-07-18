@@ -21,12 +21,11 @@
     "parser",
     "indent"
   ],
-  "author": "Josh Gillies (contact@joshgilli.es)",
+  "author": "Josh Gillies <cotact@joshgilli.es> (http://joshgilli.es)",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "7c66efe1bd19ae3249fc68c520e4d61d78e64b76",
   "dependencies": {
-    "nwlnr": "0.0.0",
+    "nwlnr": "0.0.1",
     "loopr": "0.0.0"
   },
   "devDependencies": {
